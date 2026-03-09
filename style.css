@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title,
+.digits,
+.right-side {
+    font-weight: bold;
+}
+
+.title-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.theme {
+    font-size: 15px;
+    height: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 0;
+    width: 250px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 3px rgb(174, 174, 174);
+}
+
+.top-row {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    margin-left: 185px;
+    margin-right: 22px;
+}
+
+.display,
+button {
+    border: 1px solid rgb(82, 82, 82);
+    border-radius: 5px;
+}
+
+.display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;
+    margin: 15px auto;
+    width: 202px;
+    height: 35px;
+    font-size: 22px;
+}
+
+button {
+    padding: 5px;
+    margin: 2px 2px;
+    width: 50px;
+    font-size: 20px;
+    background-color: rgb(220, 220, 220);
+}
+
+.upper-container {
+    display: flex;
+    width: 216px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 162px;
+}
+
+.first-row {
+    display: flex;
+}
+
+.digits-container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 162px;
+}
+
+.digits-container .digits {
+    background-color: rgb(255, 255, 255);
+}
+
+.right {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 54px;
+}
+
+.right-side {
+    background: rgb(250, 176, 37);
+}
+
+.bottom {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.dark-mode,
+button.dark-mode {
+    color: rgb(223, 223, 223);
+}
+.dark-mode {
+    background-color: rgb(32, 32, 34);
+}
+
+button.dark-mode {
+    background-color: rgb(56, 56, 59);
+}
+
+.digits.dark-mode {
+    background-color: rgb(87, 87, 92); 
+} 
+
+button.right-side.dark-mode {
+    background: rgb(196, 137, 28);
+    color: rgb(32, 32, 34);
+}

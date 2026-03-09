@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calculator.js" defer></script>
+</head>
+<body>
+    <div class="title-row">
+        <div class="title">Calculator</div>
+        <button class="theme">light</button>
+    </div>
+    
+    <div class="container">
+        <div class="display" contenteditable="true">0</div>
+        <div class="top-row">
+            <button class="backspace">⌫</button>
+        </div>
+
+        <div class="upper-container">
+            <div class="left">
+                <div class="first-row">
+                    <button class="clear">AC</button>
+                    <button class="sqrt">√</button>
+                    <button class="percentage">%</button>
+                </div>
+                <div class="digits-container">
+                    <button class="digits" id="pos-neg">+/-</button>
+                </div>
+            </div>
+            <div class="right">
+                <button class="right-side" id="equal">=</button>
+            </div>
+        </div>
+        
+        <div class="bottom">
+            <button class="pi">π</button>
+            <button id="exponent" class="operators">^</button>
+            <button id="round-2">R2</button>
+            <button id="round-0">R0</button>
+        </div>
+    </div>
+</body>
+</html>
